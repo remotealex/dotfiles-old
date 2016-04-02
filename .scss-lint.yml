@@ -1,0 +1,7 @@
+linters:
+  Indentation:
+    width: 4
+    allow_non_nested_indentation: true
+
+    LeadingZero:
+        enabled: false
