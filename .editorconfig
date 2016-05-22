@@ -28,3 +28,7 @@ indent_style = space
 indent_size = 4
 max_char = 78
 brace_style = expand
+
+[**.py]
+indent_style = space
+indent_size = 4
