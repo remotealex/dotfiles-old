@@ -47,15 +47,13 @@ autocmd BufNew * wincmd l
 
 " Syntastic
 let g:syntastic_javascript_checkers=['eslint']
+" let g:syntastic_javascript_checkers=['jshint']
 let g:syntastic_python_checkers=['flake8']
 let g:syntastic_scss_checkers=['scss_lint']
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
 
 " Powerline
 set rtp+=~/.vim/plugged/powerline/powerline/bindings/vim
