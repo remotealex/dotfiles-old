@@ -83,3 +83,6 @@ nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 " Add plugins to &runtimepath
 call plug#end()
+
+" Fix clipboard
+set clipboard=unnamed

@@ -10,7 +10,8 @@
     "rules": {
         "semi": ["error", "always"],
         "strict": 0,
-        "indent": ["error", 2]
+        "indent": ["error", 2],
+        "indentSwitchCase": true
     },
     "plugins": [
         "react"
